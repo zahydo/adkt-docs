@@ -58,7 +58,7 @@ playground:
   # Javascript type="text/javascript" near </body>. Can be either:
   # Relative URL from site root starting with slash /
   # Absolute URL starting with 'http'
-  scripts_body:# Javascript files near </body>. Can be either relative URL from site root, absolute URL starting with 'http'
+  scripts_body: # Javascript files near </body>. Can be either relative URL from site root, absolute URL starting with 'http'
     # - /demo-only/js/ola.min.js
     # - /demo-only/js/scroll-btween.js
     # - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js
@@ -190,7 +190,7 @@ sidebar:
       title: SEEMAP
       order: 500
       category: Showcase
-    - url: assets/home.md
+    - url: home.md
       order: 500
       title: ADKT
       category: ADKT
