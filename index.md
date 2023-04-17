@@ -1,5 +1,12 @@
 ---
+title: What's ADKT
+description: Why ADKT?
+layout: libdoc/page
+
+#LibDoc specific below
 ---
+* 
+{:toc}
 ## What's Software Architecture?
 
 We can define software architecture as the organization and structure of software components to communicate with other components and create more complex systems. It is then in the design stage where efforts are made to achieve an optimal organization that benefits both functional and quality requirements. This structure and organization can be evidenced in diagrams or some other understandable view for different audiences. However, the presentation of these diagrams or documents is nothing more than the synthesis of decisions that are made to arrive at a certain version of a design. Due to the above, we could define the software architecture as a set of decisions that involve changes to the structure, business rules, restrictions, and new functionalities according to the requirements.
