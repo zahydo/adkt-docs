@@ -15,4 +15,5 @@ ADKT is a web platform that allows the registration and traceability of the reas
 ADKT is composed by 2 components:
 
 API: To manage design decision from anywhere through an API KEY
+
 UI: Graphical dashboard where decision management can be done manually.
