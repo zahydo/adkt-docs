@@ -1,6 +1,6 @@
 ---
 title: What's ADKT
-description: Why ADKT?
+description: Architecture Design Decision Knowledge Traceability Tool
 layout: libdoc/page
 
 #LibDoc specific below
@@ -17,10 +17,10 @@ There are different ways, tools and styles to document software architecture, wi
 
 ## What's ADKT?
 
-ADKT is a web platform that allows the registration and traceability of the reasons behind architectural design decisions and the artifacts involved in them. The main goal of ADKT is to provide a standardized way of receiving architecture design decisions from different knowledge sources. 
+**ADKT** is a web platform that allows the registration and traceability of the reasons behind architectural design decisions and the artifacts involved in them. The main goal of **ADKT** is to provide a standardized way of receiving architecture design decisions from different knowledge sources. 
 
-ADKT is composed by 2 components:
+**ADKT** is composed by 2 components:
 
-API: To manage design decision from anywhere through an API KEY
+**API**: To manage design decision from anywhere through an API KEY
 
-UI: Graphical dashboard where decision management can be done manually.
+**UI**: Graphical dashboard where decision management can be done manually.
