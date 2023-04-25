@@ -1,6 +1,6 @@
 ---
 title: API Usage
-description: How to use ADKT.
+description: How to use the ADKT GraphQL API.
 layout: libdoc/page
 
 #LibDoc specific below
@@ -31,7 +31,7 @@ In the HTTP Header section, setup the API as follow:
 
 ```json
 {
-  "x-api-key": "da2-bchqzs4dizedzjhtbvxlgfrpti"
+  "x-api-key": "da2-xxxxxxxxxxxxxxxxxxxxxxxxx"
 }
 ```
 

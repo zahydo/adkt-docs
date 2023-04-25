@@ -18,7 +18,7 @@ To request an API KEY you just have to send the data in the following [form](htt
 
 The following header must be added to the HTTP request with the value received for the API KEY.
 
-`x-api-key: "ds3-oskeiw4dizedzjhtbvxlgjdiwu"`
+`x-api-key: "ds3-xxxxxxxxxxxxxxxcccccccccc"`
 
 ## Example
 
@@ -26,7 +26,7 @@ The following header must be added to the HTTP request with the value received f
 
 ```curl
 curl --location --request POST 'https://x2qmbh2qm5gs7gczfbxebbbeie.appsync-api.us-east-1.amazonaws.com/graphql' \
---header 'x-api-key: ds3-oskeiw4dizedzjhtbvxlgjdiwu' \
+--header 'x-api-key: ds3-xxxxxxxxxxxxxxxcccccccccc' \
 --header 'Content-Type: application/json' \
 --data-raw '{"query":"query getMetadata ($id: ID!) {\n    getMetadata (id: $id) {\n        id\n        reporterName\n        sourceRef\n        createdAt\n        updatedAt\n        metadataDesignDecisionId\n    }\n}","variables":{"id":"5a8df4f3-8b9e-43ad-9229-63b0b893fac8"}}'
 ```
@@ -52,7 +52,7 @@ var config = {
   method: 'post',
   url: 'https://x2qmbh2qm5gs7gczfbxebbbeie.appsync-api.us-east-1.amazonaws.com/graphql',
   headers: { 
-    'x-api-key': 'ds3-oskeiw4dizedzjhtbvxlgjdiwu', 
+    'x-api-key': 'ds3-xxxxxxxxxxxxxxcccccccccccc', 
     'Content-Type': 'application/json'
   },
   data : data
