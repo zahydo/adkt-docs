@@ -1,6 +1,6 @@
 ---
 title: Installation
-description: How to install ADKT on your company?.
+description: How to install ADKT API on your company?.
 layout: libdoc/page
 
 #LibDoc specific below
