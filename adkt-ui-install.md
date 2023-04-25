@@ -44,7 +44,7 @@ Go to the browser: [localhost:3000](http://localhost:3000)
 `docker stop adkt_web_container`
 
 
-### Features
+## Features
 
 - Design Decisions management
 - Quality Attributes management
