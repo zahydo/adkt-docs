@@ -12,7 +12,7 @@ order: 30
 
 ## Postman Collection
 
-Import the next [Postman Collection](assets/ADKT%20Postman%20Collection.postman_collection.json) and test the mutations and queries.
+Import the next [Postman Collection](assets/ADKT%20Postman%20Collection.postman_collection.json) and test the mutations and queries. Don't forget to change the Authorization variable `x-api-key` with the correct API KEY.
 
 **Query example:**
 
