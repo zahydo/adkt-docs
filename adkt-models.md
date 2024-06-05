@@ -215,8 +215,7 @@ Example:
  - **description**: improved security when authenticating and authorizing resources accessed through the account_bank_service.
  - **impact**: positive
  
- 
- ### NonFunctionalConcern
+### Non Functional Requirements
 
 Generally, decisions related to architectural or design aspects are linked to non-functional aspects. Non-functional concerns go beyond meeting a specific technical requirement; they must specify the quality of how a requirement is met, generally through scenarios that mention: the stimulus and its source, the environment in which it is run. , the affected artifact, the response, and a metric that allows measuring the progress or the missing work to improve.
 
@@ -224,9 +223,15 @@ Example:
 
  - **scenario**: A user without the correct permissions tries to make requests to the bank account service in the production environment, the new authorization service detects that this user does not have the corresponding permissions blocks the requests coming from the device, and notifies unwanted access to the email related to the account in less than 5 seconds.
  - **metric**: Unlawful access notification time, 5 seconds. Immediate blocking of malicious requests.
- - **qualityAttribute**:
-   - **name**: Security.
-   - **description**: The following tactics are used to resist attacks: authorization/authentication.
+
+
+### Quality Attribute
+It's part of the Non Functional Requirement, and it's related to the quality model implemented for each company. E.g: ISO/IEC 25010.
+
+Example: 
+
+ - **name**: Security.
+ - **description**: The following tactics are used to resist attacks: authorization/authentication.
 
 ### Artifact
 To maintain the traceability of design decisions, not only must the decisions be captured, but they must be linked to other documents, links, or related artifacts. This allows you to go back on decisions and artifacts.
