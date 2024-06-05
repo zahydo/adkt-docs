@@ -215,7 +215,9 @@ Example:
  - **description**: improved security when authenticating and authorizing resources accessed through the account_bank_service.
  - **impact**: positive
  
+ 
  ### NonFunctionalConcern
+
 Generally, decisions related to architectural or design aspects are linked to non-functional aspects. Non-functional concerns go beyond meeting a specific technical requirement; they must specify the quality of how a requirement is met, generally through scenarios that mention: the stimulus and its source, the environment in which it is run. , the affected artifact, the response, and a metric that allows measuring the progress or the missing work to improve.
 
 Example:
