@@ -12,17 +12,11 @@ order: 70
 
 ## Installation
 
-### Run a Docker container with the DEMO environment:
-
-`docker run -p 3000:3000 --rm --name adkt_web_container -d sahydo/adkt_web:demo`
-
-Go to the browser: [localhost:3000](http://localhost:3000)
-
 ### Run a Docker Container with a custom environment:
 
-`docker run -p 3000:3000 --rm --name adkt_web_container -d --env-file setup.env sahydo/adkt_web`
+After having installed the backend ([README](adkt-install.md)) and having the environment variables for the Frontend follow the next steps: 
 
-Configure a `setup.env` file with the next env variables:
+Configure a `setup.env` file with the env variables:
 ```env
 NEXT_PUBLIC_AWS_PROJECT_REGION="us-east-1"
 NEXT_PUBLIC_AWS_COGNITO_IDENTITY_POOL_ID="us-east-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxx"
@@ -35,7 +29,7 @@ NEXT_PUBLIC_AWS_APPSYNC_AUTHENTICATION_TYPE="API_KEY"
 NEXT_PUBLIC_AWS_APPSYNC_API_KEY="xxx-xxxxxxxxxxxxxxxxx"
 ```
 
-Request the env variables in this [form](https://forms.gle/Z3Q8CpX8xnzhnoxW9)
+`docker run -p 3000:3000 --rm --name adkt_web_container -d --env-file setup.env sahydo/adkt_web`
 
 Go to the browser: [localhost:3000](http://localhost:3000)
 

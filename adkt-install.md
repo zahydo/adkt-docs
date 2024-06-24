@@ -13,16 +13,14 @@ order: 10
 
 ## Installation
 
-If you want to install an exclusive environment for your organization, you must request a new URL with its respective API KEY, in the following [form](https://forms.gle/ttzV3CFhkDC7m3DV9)
+If you want to install an exclusive environment for your organization, you must request a meeting in the following [form](https://forms.gle/ttzV3CFhkDC7m3DV9). 
 
-## API KEY
+Once the meeting has been agreed upon, an AWS account must be created for the Backend Stack installation. Next, the source code for the installation of the software on the AWS services will be delivered, you'll need the Amplify CLI to continue with this step. Once this is finished, the Frontend will be configured with the environment variables obtained from the previous process.
 
-See the [Authorization](./adkt-auth.html) section to obtain the API KEY.
-
-## Demo
-
-**API URL**
-
-`https://x2qmbh2qm5gs7gczfbxebbbeie.appsync-api.us-east-1.amazonaws.com/graphql`
-
-See the [API Usage](adkt-usage.html) section to check how to call the API for queries and mutations
+To summarize:
+1. Request meeting through the form.
+2. Create admin user for Amplify.
+3. Obtain a copy of the source code for deploying services on AWS.
+4. Install the Amplify CLI.
+5. Deploy the services.
+6. Configure Frontend with the new environment variables. [README](./adkt-ui-install.md)
