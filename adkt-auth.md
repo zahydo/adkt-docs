@@ -12,7 +12,7 @@ order: 20
 
 ## Request the API KEY
 
-To request an API KEY you just have to send the data in the following [form](https://forms.gle/ttzV3CFhkDC7m3DV9) and wait for the response with the API KEY value of the demo environment. In case you have answered `Yes` to the question **¿Desea solicitar una API KEY privada para su compañía?**, we will contact the email sent with the next steps to follow.
+Once the Backend ([README](./adkt-install.md)) is installed, you will have an API KEY to make requests from any HTTP client, all you have to do is add the following header to the request with the corresponding value.
 
 ## HTTP Header
 
